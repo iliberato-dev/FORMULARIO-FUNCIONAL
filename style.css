@@ -30,6 +30,12 @@ body {
     text-align: center;
 }
 
+#subtitle {
+    
+    text-align: center;
+    
+}
+
 #subtitle::before {
     content: '🐯';
     display: block;
