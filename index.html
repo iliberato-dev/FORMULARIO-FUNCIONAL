@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de contato</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form action="https://formsubmit.co/isaque.cedesp@gmail.com" method="POST" class="form">
+
+    <h1 id="title">Formulário de Contato</h1>
+
+    <div class="box box_name">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required placeholder="nome">
+    </div>
+
+    <div class="box box_email">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required placeholder="email">
+    </div>
+
+    <div class="box box_text">
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" placeholder="Digite aqui 👀" ></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+
+    <!-- configurações adicionais do form -->
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+    <!-- <input type="hidden" name="_autoresponse" value="Obrigado Logo retornaremos o contato."> -->
+    <input type="hidden" name="_template" value="box">
+  </form>
+
+</body>
+
+</html>
